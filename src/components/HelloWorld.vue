@@ -19,11 +19,9 @@ const value1 = ref(true);
 <template>
   <h1 color="$ep-color-primary">{{ msg }}</h1>
 
-  <p>
-    See
-    <a href="https://element-plus.org" target="_blank">element-plus</a> for more
-    information.
-  </p>
+  <p>See <a href="https://cn.vuejs.org/" target="_blank">Vue3</a> for more information.</p>
+  <p>See <a href="https://cn.vitejs.dev/" target="_blank">Vite</a> for more information.</p>
+  <p>See <a href="https://element-plus.org/zh-CN/" target="_blank">Element Plus</a> for more information.</p>
 
   <!-- example components -->
   <div class="mb-4">
@@ -41,9 +39,9 @@ const value1 = ref(true);
 
   <div>
     <el-tag type="success" class="m-1">Tag 1</el-tag>
-    <el-tag type="warning" class="m-1">Tag 1</el-tag>
-    <el-tag type="danger" class="m-1">Tag 1</el-tag>
-    <el-tag type="info" class="m-1">Tag 1</el-tag>
+    <el-tag type="warning" class="m-1">Tag 2</el-tag>
+    <el-tag type="danger" class="m-1">Tag 3</el-tag>
+    <el-tag type="info" class="m-1">Tag 4</el-tag>
   </div>
 
   <div>
@@ -81,7 +79,7 @@ const value1 = ref(true);
     <a
       href="https://github.com/element-plus/element-plus-vite-starter"
       target="_blank"
-      >element-plus-vite-starter</a
+      >vue3-vite-elementplus</a
     >
     | On demand Example:
     <a

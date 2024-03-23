@@ -1,9 +1,9 @@
 {
-  "name": "element-plus-vite-starter",
+  "name": "vue3-vite-elementplus",
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port=7400",
     "build": "vite build",
     "generate": "vite-ssg build",
     "preview": "vite preview",
