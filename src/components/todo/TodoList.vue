@@ -30,7 +30,7 @@
     </el-form>
 
     <el-card v-for="item in todo.items" :key="item.name">
-      {{ item.name }}
+      {{ item.name }}({{ item.amount }})
       <el-button @click="todo.removeItem(item.name)">X</el-button>
     </el-card>
   </div>
