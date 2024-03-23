@@ -8,8 +8,9 @@
     <div class="flex main-container">
       <BaseSide />
       <div w="full" py="4" class="main-container-body">
-        <Logos my="4" />
-        <HelloWorld msg="Vue 3 + Vite + Element Plus" />
+        <!-- <Logos my="4" /> -->
+        <!-- <Dashboard msg="Vue 3 + Vite + Element Plus" /> -->
+        <router-view></router-view>
       </div>
     </div>
   </el-config-provider>

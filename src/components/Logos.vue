@@ -1,7 +1,11 @@
+<script setup lang="ts">
+  import vu from '~/assets/vue.svg'
+</script>
+
 <template>
   <div>
     <a href="https://cn.vuejs.org/" target="_blank">
-      <img src="../assets/vue.svg" class="logo vue" alt="Vue logo" />
+      <img :src="vu" class="logo vue" alt="Vue logo" />
     </a>
     <a href="https://cn.vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />

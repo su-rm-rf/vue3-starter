@@ -1,5 +1,6 @@
 import { createApp } from "vue";
-import App from "./App.vue";
+import router from '~/router'
+import { createPinia } from "pinia";
 
 // import "~/styles/element/index.scss";
 
@@ -15,6 +16,10 @@ import "uno.css";
 // If you want to use ElMessage, import it.
 import "element-plus/theme-chalk/src/message.scss";
 
-const app = createApp(App);
-// app.use(ElementPlus);
-app.mount("#app");
+import App from "./App.vue";
+
+createApp(App)
+// .use(ElementPlus)
+.use(router)
+.use(createPinia())
+.mount("#app");
